@@ -1,0 +1,94 @@
+
+.work h2{
+    color: #066163;
+    
+    text-align: center;
+    padding: 2em 0 1em;
+}
+
+.slider {
+    width:50%;
+     margin:0 auto;
+ }
+ 
+ .slider img {
+    border-radius: 15px;
+     width: 100%;
+     height:auto;
+ }
+ 
+ .slider .slick-slide {
+     margin:0 10px;
+ }
+ 
+ /*矢印の設定*/
+ 
+ .slick-prev, 
+ .slick-next {
+     position: absolute;/*絶対配置にする*/
+     top: 40%;
+     cursor: pointer;/*マウスカーソルを指マークに*/
+     outline: none;/*クリックをしたら出てくる枠線を消す*/
+     border-top: 2px solid #cdbe78;/*矢印の色*/
+     border-right: 2px solid #cdbe78;/*矢印の色*/
+     height: 15px;
+     width: 15px;
+ }
+ 
+ .slick-prev {
+     left: -1.5%;
+     transform: rotate(-135deg);
+ }
+ 
+ .slick-next {
+     right: -1.5%;
+     transform: rotate(45deg);
+ }
+ 
+ /*ドットナビゲーションの設定*/
+
+ .slick-dots {
+     text-align:center;
+     margin:10px 0 20px ;
+ }
+ 
+ .slick-dots li {
+     display:inline-block;
+     margin:0 5px;
+ }
+ 
+ .slick-dots button {
+    margin: 0;
+    padding: 0;
+     color: transparent;
+     outline: none;
+     width:12px;
+     height:12px;
+     display:block;
+     border-radius:50%;
+     background:#f2f2f2;/*ドットボタンの色*/
+ }
+ 
+ .slick-dots .slick-active button{
+     background:#cdbe78;
+ }
+ .gallery{
+    columns: 4;/*段組みの数*/
+    padding:0 15px;
+    margin:0;
+    }
+    
+.gallery li {
+    margin-bottom: 15px;
+    list-style:none;
+}
+    
+/*ギャラリー内のイメージは横幅100%にする*/
+.gallery img{
+    border-radius: 15px;
+    width:100%;
+    height:auto;
+    vertical-align: bottom;/*画像の下にできる余白を削除*/
+}
+
+ 

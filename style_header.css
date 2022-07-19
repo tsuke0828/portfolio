@@ -1,0 +1,19 @@
+header{
+   padding: 0 0 100px;
+}
+.HERO li{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+.HERO a{
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 1em 1.5em;
+}
+.HERO h1{
+    color: #f2f2f2;
+    font-size: 2em;
+    text-align: center;
+    padding: 8em 0;
+}
