@@ -6,18 +6,18 @@
     padding: 2em 0 1em;
 }
 
-.slider {
+.imgslid {
     width:50%;
      margin:0 auto;
  }
  
- .slider img {
+ .imgslid img {
     border-radius: 15px;
      width: 100%;
      height:auto;
  }
  
- .slider .slick-slide {
+ .imgslid .slick-slide {
      margin:0 10px;
  }
  
