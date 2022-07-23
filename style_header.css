@@ -1,3 +1,28 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn2 {
+    0% {
+        opacity: -1;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 #splash {
 	position: fixed;
 	width: 100%;
@@ -77,8 +102,10 @@ header{
     font-style: normal;
     font-weight: 600;
     transform: rotateY( 180deg );
-
 }
+.HERO h1 {animation-name: fadeIn; animation-duration: 5s; }
+.botan {animation-name: fadeIn; animation-duration: 9s; }
+
 .botan{
     position: relative;
     transition: all 0.3s ease 0s;
