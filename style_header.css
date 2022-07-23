@@ -15,6 +15,7 @@ header{
     font-style: normal;
     font-weight: 600;
     transition: all 0.3s ease 0s;
+    transform: rotateY( 180deg );
 }
 .HERO a:hover{
     color: #cdbe78;

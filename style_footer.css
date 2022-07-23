@@ -36,11 +36,13 @@ address{
     font-style: normal;
     font-weight: 600;
     transition: all 0.3s ease 0s;
+    transform: rotateY( 180deg );
 } 
 .mozi1:hover{
     color: #cdbe78;
     cursor: pointer;
 	transform: scale(1.2);
+
 }
 .tweet img{
     position: absolute;
@@ -63,11 +65,13 @@ address{
     font-style: normal;
     font-weight: 600;
     transition: all 0.3s ease 0s;
+    transform: rotateY( 180deg );
 }
 .mozi2:hover{
     color: #cdbe78;
     cursor: pointer;
 	transform: scale(1.2);
+
 }
 .mail img{
     position: absolute;
@@ -88,4 +92,5 @@ address{
     font-weight: 600;
     padding-bottom: 3em;
     transition: color 0.3s;
+    transform: rotateY( 180deg );
 }
