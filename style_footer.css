@@ -4,18 +4,44 @@
     text-align: center;
     padding: 2em 0 1em;
 }
-.insta img{
-    width: 40px;
-    height: 40px;
-    margin: 1em;
+address{
+    height: 300px;
+    position: relative;
 }
-.tweet img{
+
+.insta img{
+    position: absolute;
     width: 40px;
     height: 40px;
     margin: 1em;
+    top: 15%;
+    right: 75%;
+
+}
+.insta a{
+    position: absolute;
+    top: 15%;
+    right: 50%;
+} 
+.tweet img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 1em;
+    right: 75%;
+}
+.tweet a{
+    position: absolute;
+    right: 50%;
 }
 .mail img{
+    position: absolute;
     width: 40px;
     height: 40px;
     margin: 1em;
+    right: 75%;
+}
+.mail a{
+    position: absolute;
+    right: 50%;
 }
