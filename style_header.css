@@ -14,6 +14,12 @@ header{
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+.HERO a:hover{
+    color: #cdbe78;
+    cursor: pointer;
+	transform: scale(1.2);
 }
 .HERO h1{
     color: #f2f2f2;

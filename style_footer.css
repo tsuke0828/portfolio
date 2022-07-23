@@ -21,32 +21,53 @@ address{
     height: 50px;
     margin: 1em;
     top: 5%;
-    right: 60%;
-
+    right: 55%;
+    transition: all 0.3s ease 0s;
+}
+.insta img:hover{
+    cursor: pointer;
+	transform: scale(1.2);
 }
 .mozi1 {
     position: absolute;
-    top: 20%;
-    right: 50%;
+    top: 15%;
+    left: 50%;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
+    transition: all 0.3s ease 0s;
 } 
+.mozi1:hover{
+    color: #cdbe78;
+    cursor: pointer;
+	transform: scale(1.2);
+}
 .tweet img{
     position: absolute;
     width: 50px;
     height: 50px;
     margin: 1em;
     top: 45%;
-    right: 60%;
+    right: 55%;
+    transition: all 0.3s ease 0s;
+}
+.tweet img:hover{
+    cursor: pointer;
+	transform: scale(1.2);
 }
 .mozi2{
     position: absolute;
-    top: 50%;
-    right: 50%;
+    top: 55%;
+    left: 50%;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+.mozi2:hover{
+    color: #cdbe78;
+    cursor: pointer;
+	transform: scale(1.2);
 }
 .mail img{
     position: absolute;
@@ -54,14 +75,17 @@ address{
     height: 50px;
     margin: 24px;
     top: 85%;
-    right: 60%;
+    right: 55%;
+    transition: filter 0.3s;
     
 }
 .mail a{
     position: absolute;
-    top: 80%;
-    right: 50%;
+    top: 95%;
+    left: 50%;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
+    padding-bottom: 3em;
+    transition: color 0.3s;
 }
