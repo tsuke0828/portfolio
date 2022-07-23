@@ -9,6 +9,7 @@
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
+    transform: rotateY( 180deg );
 }
 
 .imgslid {

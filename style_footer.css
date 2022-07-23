@@ -6,6 +6,7 @@
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
+    transform: rotateY( 180deg );
 }
 .footer a{
     font-size: 1.5em;
@@ -83,10 +84,12 @@ address{
     transition: filter 0.3s;
     
 }
-.mail a{
+.mail h3{
     position: absolute;
     top: 95%;
     left: 50%;
+    font-size: 1.5em;
+    color: #f2f2f2;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;

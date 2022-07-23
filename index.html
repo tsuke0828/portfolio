@@ -15,6 +15,12 @@
     
 </head>
 <body>
+    <div id="splash">
+        <div id="splash_text"></div>
+        <div class="loader_cover loader_cover-up"></div>
+        <div class="loader_cover loader_cover-down"></div>
+        <!--/splash--></div>
+        <div id="container">
     <header>
         <section class="HERO">
             <section class="icon">
@@ -22,7 +28,7 @@
             </section>
             <nav>
                 <ul>
-                    <li><a href="img/about.png" data-lightbox="profile" data-title="Profile"><h2>ABOUT</h2></a>
+                    <li><a href="img/about.png" data-lightbox="profile" data-title="Profile"><h2 id="about">ABOUT</h2></a>
                         <a href="#work"><h2>WORKS</h2></a></li>
         
 
@@ -30,17 +36,23 @@
             </nav>
             <h1 id="sample">
                 すいません.文字が反転してますね。<br>
-                ...今戻します。
+                ...今戻しますね。
             </h1>
             <div class="botan">
-                <h2><a href="#" onclick="document.getElementById('sample').style.transform = 'rotateY(0deg)';return false;">反転</a></h2>
+                <h2><a href="#" onclick="document.getElementById('sample').style.transform = 'rotateY(0deg)'
+                                        ;document.getElementById('w1').style.transform = 'rotateY(0deg)'
+                                        ;document.getElementById('address').style.transform = 'rotateY(0deg)'
+                                        ;document.getElementById('gmai').style.transform = 'rotateY(0deg)'
+                                        ;return false;">反転
+                    </a>
+                </h2>
             </div>
             
            
         </section>
     </header>
     <section id="work">
-        <h2 class="w1">-WORKS-</h2>
+        <h2 id="w1">-WORKS-</h2>
         
         <ul class="imgslid">
             <li><a href="img/apple_0528_taisuke.png" data-lightbox="1" data-title="2022/05/28 blender tutorial blenderの会"><img src="img/apple_0528_taisuke.png" alt=""></a></li>
@@ -66,7 +78,7 @@
         </ul>
     </section>
     <section class="footer">
-        <h2>-ADDRESS-</h2>
+        <h2 id="address">-ADDRESS-</h2>
         <address>
             <ul class="insta">
                 <li><a href="https://www.instagram.com/tsuke_mono828"><img src="img/insta.svg" alt=""></a></li>
@@ -78,10 +90,14 @@
             </ul>
             <ul class="mail">
                 <li><img src="img/mail.svg" alt=""></li>
-                <li><a href="">tsuke0828@gmail.com</a></li>
+                <li><h3 id="gmai">tsuke0828@gmail.com</h3></li>
             </ul>
         </address>
     </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"   ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
