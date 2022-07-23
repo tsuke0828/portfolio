@@ -8,6 +8,8 @@
 }
 html{
     background-color: #383833;
+    /* スムーススクロール用 */
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
