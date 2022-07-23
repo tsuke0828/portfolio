@@ -30,10 +30,7 @@ header{
     font-style: normal;
     font-weight: 600;
     transform: rotateY( 180deg );
-   -moz-transform:    rotateY( 180deg );  /* Firefox用 */
-   -webkit-transform: rotateY( 180deg );  /* Chrome,Safari,新しいOpera用 */
-   -o-transform:      rotateY( 180deg );  /* 古いOpera用 */
-   -ms-transform:     rotateY( 180deg );  /* IE9用 */
+
 }
 .botan{
     position: relative;
