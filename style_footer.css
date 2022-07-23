@@ -1,8 +1,10 @@
 .footer h2{
     color: #066163;
-    
     text-align: center;
     padding: 2em 0 1em;
+    font-family: kaisotai, sans-serif;
+    font-style: normal;
+    font-weight: 600;
 }
 .footer a{
     font-size: 1.5em;
@@ -25,6 +27,9 @@ address{
     position: absolute;
     top: 20%;
     right: 50%;
+    font-family: kaisotai, sans-serif;
+    font-style: normal;
+    font-weight: 600;
 } 
 .tweet img{
     position: absolute;
@@ -38,6 +43,9 @@ address{
     position: absolute;
     top: 50%;
     right: 50%;
+    font-family: kaisotai, sans-serif;
+    font-style: normal;
+    font-weight: 600;
 }
 .mail img{
     position: absolute;
@@ -46,9 +54,13 @@ address{
     margin: 24px;
     top: 85%;
     right: 60%;
+    
 }
 .mail a{
     position: absolute;
     top: 80%;
     right: 50%;
+    font-family: kaisotai, sans-serif;
+    font-style: normal;
+    font-weight: 600;
 }
