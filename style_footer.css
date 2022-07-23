@@ -1,7 +1,8 @@
 .footer h2{
-    color: #066163;
+    font-size: 3em;
+    color: #f2f2f2;
     text-align: center;
-    padding: 2em 0 1em;
+    padding: 1em 0 0.5em;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;

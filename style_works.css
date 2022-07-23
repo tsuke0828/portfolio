@@ -1,8 +1,11 @@
-
+.work{
+    background-color: #066163;
+}
 .work h2{
-    color: #066163;
+    font-size: 3em;
+    color: #cdbe78;
     text-align: center;
-    padding: 2em 0 1em;
+    padding: 1em 0 0.5em;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -76,7 +79,7 @@
  }
  .gallery{
     columns: 4;/*段組みの数*/
-    padding:0 15px;
+    padding:0 15px 2em;
     margin:0;
     }
     
