@@ -72,19 +72,19 @@
  .slick-dots .slick-active button{
      background:#cdbe78;
  }
- .imageall{
+ .gallery{
     columns: 4;/*段組みの数*/
     padding:0 15px;
     margin:0;
     }
     
-.imageall li {
+.gallery li {
     margin-bottom: 15px;
     list-style:none;
 }
     
 /*ギャラリー内のイメージは横幅100%にする*/
-.imageall img{
+.gallery img{
     border-radius: 15px;
     width:100%;
     height:auto;
