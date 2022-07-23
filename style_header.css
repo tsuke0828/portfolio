@@ -94,6 +94,7 @@ header{
 	transform: scale(1.2);
 }
 .HERO h1{
+    position: relative;
     color: #f2f2f2;
     font-size: 2.5em;
     text-align: center;
@@ -130,4 +131,14 @@ header{
 }
 .botan:hover{
     transform: translateY(4px);
+}
+.ha{
+    transform: rotate(15deg);
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    font-family: kaisotai, sans-serif;
+    color: #f2f2f2;
+    padding-right: 1em;
+    writing-mode: vertical-rl;
 }

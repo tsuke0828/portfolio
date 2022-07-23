@@ -1,5 +1,7 @@
 #work{
     background-color: #066163;
+    cursor: pointer;
+
 }
 #work h2{
     font-size: 3em;
@@ -13,16 +15,20 @@
 }
 
 .imgslid {
-    width:50%;
+    cursor: pointer;
+    max-width:50%;
      margin:0 auto;
  }
  
  .imgslid img {
+    transition: transform .6s ease;
     border-radius: 15px;
-     width: 100%;
+     max-width: 100%;
      height:auto;
  }
- 
+ .imgslid img:hover{
+    transform: scale(1.05);
+ }
  .imgslid .slick-slide {
      margin:0 10px;
  }
@@ -79,6 +85,7 @@
      background:#cdbe78;
  }
  .gallery{
+    cursor: pointer;
     columns: 4;/*段組みの数*/
     padding:0 15px 2em;
     margin:0;
@@ -91,10 +98,13 @@
     
 /*ギャラリー内のイメージは横幅100%にする*/
 .gallery img{
+    transition: transform .3s ease;
     border-radius: 15px;
-    width:100%;
+    max-width:100%;
     height:auto;
     vertical-align: bottom;/*画像の下にできる余白を削除*/
 }
-
+.gallery img:hover{
+    transform: scale(1.03);
+}
  
