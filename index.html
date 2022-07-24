@@ -47,9 +47,6 @@
                 すいません.文字が反転してますね。<br>
                 ...今戻しますね。
             </h1>
-            <h2 class="ha">あれ？反転したはずなのに...<br>
-                押してみましょう...
-            </h2>
             <div class="botan">
                 <h2><a href="#" onclick="document.getElementById('sample').style.transform = 'rotateY(0deg)'
                                         ;document.getElementById('w1').style.transform = 'rotateY(0deg)'
@@ -60,8 +57,21 @@
                     </a>
                 </h2>
             </div>
+            <div class="wrap">
+                <button id="button" type="button">あれ？
+
+                </button>
+                <h1 class="main1" id="addTest">
+                まだ反転しているところがある...<br>確認してみよう...
+                </h1>
+            </div> 
+            <script>
+                document.getElementById('button').addEventListener('click', function() {
+                // id='addTest'の要素にclass"addClass"を追加
+                document.getElementById('addTest').classList.add("addClass");
+                });
+             </script>
             
-           
         </section>
     </header>
     <section id="work">

@@ -11,7 +11,24 @@
 }
 @keyframes fadeIn2 {
     0% {
-        opacity: -1;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn3 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
     }
     50%{
         opacity: 0;
@@ -93,18 +110,20 @@ header{
     cursor: pointer;
 	transform: scale(1.2);
 }
+#sample{
+    font-size: 2.5em;
+    transform: rotateY( 180deg );
+}
 .HERO h1{
     position: relative;
     color: #f2f2f2;
-    font-size: 2.5em;
     text-align: center;
     padding: 5em 0 3em;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
-    transform: rotateY( 180deg );
 }
-.HERO h1 {animation-name: fadeIn; animation-duration: 5s; }
+#sample {animation-name: fadeIn; animation-duration: 5s; }
 .botan {animation-name: fadeIn; animation-duration: 9s; }
 
 .botan{
@@ -142,3 +161,32 @@ header{
     padding-right: 1em;
     writing-mode: vertical-rl;
 }
+#button{
+    position: absolute;
+    left: 600px;
+    top: -450px;
+    font-family: kaisotai, sans-serif;
+    color: #f2f2f2;
+    position: relative;
+    background-color: #066163;
+    border: none;
+    padding: 0.1em 0.5em;
+    border-radius: 50px;
+    font-size: 1.3em;
+}
+#button {animation-name: fadeIn3; animation-duration: 13s; }
+.wrap{ width:100px; margin: 0 auto;}
+.main1{ 
+position: absolute;
+width:10%;; height:500px;
+opacity: 0; transition: 3s;
+font-size: 1.3em;
+position: absolute;
+top: -600px;
+left: 600px;
+transform: rotate(15deg);
+font-family: kaisotai, sans-serif;
+color: #f2f2f2;
+writing-mode: vertical-rl;
+}
+.addClass { opacity: 1; }
