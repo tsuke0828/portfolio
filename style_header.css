@@ -111,14 +111,14 @@ header{
 	transform: scale(1.2);
 }
 #sample{
-    font-size: 2.5em;
+    font-size: 3em;
     transform: rotateY( 180deg );
 }
 .HERO h1{
     position: relative;
     color: #f2f2f2;
     text-align: center;
-    padding: 5em 0 3em;
+    padding: 4em 0 3em;
     font-family: kaisotai, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -164,7 +164,7 @@ header{
 #button{
     position: absolute;
     left: 600px;
-    top: -450px;
+    top: -500px;
     font-family: kaisotai, sans-serif;
     color: #f2f2f2;
     position: relative;
