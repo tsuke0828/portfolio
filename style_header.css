@@ -190,3 +190,17 @@ color: #f2f2f2;
 writing-mode: vertical-rl;
 }
 .addClass { opacity: 1; }
+#particles-js{ 
+	position:fixed;
+	z-index:-1;
+	width: 100%;
+	height: 100%;
+	background-color:#383838;/*背景色*/
+}
+
+#wrapper{
+	position: relative;
+	z-index: 1;
+	width:100%;
+	height: 100%;
+}
